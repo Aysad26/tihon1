@@ -16,6 +16,27 @@
     }
 } 
 
+@keyframes loading-text {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+} 
+
+@keyframes loading-text-two {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} 
+
 @keyframes scale-second {
     0% {
         transform: scale(1);
@@ -165,6 +186,31 @@
     cursor: pointer;
     text-decoration: none;
     z-index: 2;
+    animation: loading-text 1s 8s linear forwards;
+}
+
+.cover__button_two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 64px;
+    width: 320px;
+    background: #1d407d00;
+    border-radius: 90px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 3;
+    animation: loading-text-two 10s linear forwards;
 }
 
 .loading {
