@@ -106,7 +106,7 @@
     object-position: center;
     object-fit: cover;
     z-index: -1;
-    animation: scale-second 30s linear infinite;
+    animation: scale-second 30s linear reverse infinite;
 }
 
 .header {
