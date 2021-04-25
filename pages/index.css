@@ -1,6 +1,6 @@
 @keyframes scale-first {
     0% {
-        transform: scale(0.95);
+        transform: scale(0.89);
     }
     60% {
         transform: scale(0.78);
@@ -45,14 +45,14 @@
         transform: scale(1);
         opacity: 0;
     }
-    1% {
+    6% {
         opacity: 0.5;
     }
-    90% {
+    94% {
         opacity: 1;
     }
     100% {
-        transform: scale(2.6);
+        transform: scale(3);
         opacity: 0;
     }
 } 
@@ -106,7 +106,7 @@
     object-position: center;
     object-fit: cover;
     z-index: -1;
-    animation: scale-second 30s linear infinite;
+    animation: scale-second 30s linear infinite reverse;
 }
 
 .header {
