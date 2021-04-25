@@ -92,8 +92,8 @@
 }
 
 .cover__image-main {
-    width: 120vw;
-    height: 120vh;
+    max-width: 120vw;
+    max-height: 120vh;
     object-position: center;
     object-fit: cover;
     z-index: -1;
