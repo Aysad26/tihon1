@@ -175,5 +175,5 @@
     height: 64px;
     background-color: #1D407D;
     z-index: 1;
-    animation: loading 7s linear forwards;
+    animation: loading 7s 2s linear forwards;
 }
