@@ -42,17 +42,17 @@
 
 @keyframes scale-second {
     0% {
-        transform: scale(1);
+        transform: scale(3);
         opacity: 0;
     }
     6% {
-        opacity: 0.5;
-    }
-    94% {
         opacity: 1;
     }
+    94% {
+        opacity: 0.5;
+    }
     100% {
-        transform: scale(3);
+        transform: scale(1);
         opacity: 0;
     }
 } 
@@ -106,7 +106,7 @@
     object-position: center;
     object-fit: cover;
     z-index: -1;
-    animation: scale-second 30s linear infinite reverse;
+    animation: scale-second 30s linear infinite;
 }
 
 .header {
