@@ -47,7 +47,7 @@
     }
     6% {
         transform: scale(2.7);
-        opacity: 0;
+        opacity: 1;
     }
     94% {
         transform: scale(1.3);
